@@ -1,2 +1,22 @@
-# TimeSeries-Analysis
-This project aims to predict forest cover loss using both deep learning (LSTM) and statistical (ARIMA) time series models. Historical forest loss data is preprocessed, scaled, and modeled using LSTM networks to capture temporal patterns. ARIMA is also applied for comparison, and predictions from both models are visualized and evaluated.
+# 📈 Stock Price Prediction using LSTM – NVIDIA (NVDA)
+
+## 📌 Project Overview
+This project implements a Long Short-Term Memory (LSTM) neural network to predict future stock prices for NVIDIA (NVDA) using historical market data.
+
+## 🧠 Key Concepts
+- Data extraction with `yfinance`
+- Sequence generation for time series modeling
+- LSTM model design using TensorFlow/Keras
+- Scaling with MinMaxScaler
+- Interactive visualizations with Plotly
+
+## 📂 File
+- `Time_Series_Analysis.ipynb`
+
+## 🛠️ Technologies Used
+- Python
+- yfinance
+- Pandas, NumPy
+- TensorFlow/Keras
+- Scikit-learn
+- Plotly
